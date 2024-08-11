@@ -16,13 +16,13 @@
             <div class="login-wrapper">
                 <h1>Login</h1>
                 
-                <form class="login-form">
-                    <input type="email" placeholder="Email" required class="email-field">
-                    <input type="password" placeholder="Password" required class="pass-field">
-                    <button type="submit" class="login-btn">Login</button>
+                <form class="login-form" action="LoginController" method="post">
+                    <input type="email" name = "email" placeholder="Email" required class="email-field">
+                    <input type="password" name = "password" placeholder="Password" required class="pass-field">
+                    <input type="submit" class="login-btn" value = "Login">Login
                 </form>
                 
-                <p>Don't have an account? <a href="Sign-up-page.html">Register here</a></p>
+                <p>Don't have an account? <a href="signup.jsp">Register here</a></p>
             </div>
         </section>
     </main>
